@@ -1,30 +1,107 @@
 [
-    {
-      "id":1,
-      "BP":90,
-      "SU":90,
-      "BMI":{
-        "value":20,
-        "result":"Normal"
-      },
-      "description":"You are perfectly fine",
-      "Plans":[
-        "Do Not eat junk foods",
-        "Do exercise reguraly"
-      ]
+  {
+    "id": 1,
+    "BP": {
+      "systolic": 120,
+      "diastolic": 80,
+      "category": "Normal"
     },
-    {
-      "id":2,
-      "BP":140,
-      "SU":300,
-      "BMI":{
-        "value":28,
-        "result":"Obese"
+    "SU": {
+      "value": 108,
+      "type": "Random"
+    },
+    "BMI": {
+      "value": 20,
+      "range": {
+        "min": 18.5,
+        "max": 24.9
       },
-      "description":"You are over weight",
-      "Plans":[
-        "Do not eat junk foods",
-        "Do exercise reguraly"
-      ]
+      "result": "Normal"
+    },
+    "description": "You are perfectly fine.",
+    "Plans": {
+      "breakfast": ["Vegetable upma", "Steamed veggies"],
+      "lunch": ["Sauteed green beans"],
+      "snack": ["One small pomegranate"]
     }
-  ]
+  },
+  {
+    "id": 2,
+    "BP": {
+      "systolic": 130,
+      "diastolic": 85,
+      "category": "Elevated"
+    },
+    "SU": {
+      "value": 120,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 25,
+      "range": {
+        "min": 24,
+        "max": 29.9
+      },
+      "result": "Overweight"
+    },
+    "description": "Take measures to improve your health.",
+    "Plans": {
+      "breakfast": ["Boiled egg and chapati", "Whole grain toast with peanut butter"],
+      "lunch": ["Baked sweet potato"],
+      "snack": ["A handful of nuts"]
+    }
+  },
+  {
+    "id": 3,
+    "BP": {
+      "systolic": 140,
+      "diastolic": 90,
+      "category": "High Blood Pressure (Stage 1)"
+    },
+    "SU": {
+      "value": 150,
+      "type": "Fasting"
+    },
+    "BMI": {
+      "value": 28,
+      "range": {
+        "min": 25,
+        "max": 29.9
+      },
+      "result": "Overweight"
+    },
+    "description": "Monitor your blood pressure and sugar levels closely.",
+    "Plans": {
+      "breakfast": ["Oatmeal with fruits and chia seeds"],
+      "lunch": ["Brown rice with steamed veggies"],
+      "dinner": ["Grilled salmon with sweet potato"],
+      "snack": ["Whole-grain toast with almond butter"]
+    }
+  },
+  {
+    "id": 4,
+    "BP": {
+      "systolic": 110,
+      "diastolic": 75,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 90,
+      "type": "Fasting"
+    },
+    "BMI": {
+      "value": 23,
+      "range": {
+        "min": 18.5,
+        "max": 24.9
+      },
+      "result": "Normal"
+    },
+    "description": "Maintain your healthy lifestyle.",
+    "Plans": {
+      "breakfast": ["Multigrain porridge with flax seeds"],
+      "lunch": ["Quinoa or bulgur wheat with steamed veggies"],
+      "snack": ["One small orange", "A handful of mixed seeds"]
+    }
+  }
+]
