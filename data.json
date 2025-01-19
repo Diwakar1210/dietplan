@@ -1,0 +1,30 @@
+[
+    {
+      "id":1,
+      "BP":90,
+      "SU":90,
+      "BMI":{
+        "value":20,
+        "result":"Normal"
+      },
+      "description":"You are perfectly fine",
+      "Plans":[
+        "Do Not eat junk foods",
+        "Do exercise reguraly"
+      ]
+    },
+    {
+      "id":2,
+      "BP":140,
+      "SU":300,
+      "BMI":{
+        "value":28,
+        "result":"Obese"
+      },
+      "description":"You are over weight",
+      "Plans":[
+        "Do not eat junk foods",
+        "Do exercise reguraly"
+      ]
+    }
+  ]
