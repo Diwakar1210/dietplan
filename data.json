@@ -11,6 +11,32 @@
       "type": "Random"
     },
     "BMI": {
+      "value": 22,
+      "range": {
+        "min": 18.5,
+        "max": 24.9
+      },
+      "result": "Normal"
+    },
+    "description": "Your health metrics are excellent. Keep up the balanced diet and regular exercise.",
+    "Plans": {
+      "breakfast": ["Oatmeal with fresh fruits", "Scrambled eggs with whole grain toast"],
+      "lunch": ["Grilled chicken salad", "Quinoa with sautéed vegetables"],
+      "snack": ["A handful of almonds", "Low-fat yogurt with honey"]
+    }
+  },
+  {
+    "id": 2,
+    "BP": {
+      "systolic": 122,
+      "diastolic": 78,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 95,
+      "type": "Fasting"
+    },
+    "BMI": {
       "value": 20,
       "range": {
         "min": 18.5,
@@ -18,15 +44,93 @@
       },
       "result": "Normal"
     },
-    "description": "You are perfectly fine.",
+    "description": "You are in good health. Focus on maintaining consistency.",
     "Plans": {
-      "breakfast": ["Vegetable upma", "Steamed veggies"],
-      "lunch": ["Sauteed green beans"],
-      "snack": ["One small pomegranate"]
+      "breakfast": ["Avocado toast", "Fruit smoothie with spinach"],
+      "lunch": ["Grilled fish with brown rice", "Vegetable stir-fry with tofu"],
+      "snack": ["Celery sticks with peanut butter", "Cheese cubes"]
     }
   },
   {
-    "id": 2,
+    "id": 3,
+    "BP": {
+      "systolic": 118,
+      "diastolic": 75,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 100,
+      "type": "Random"
+    },
+    "BMI": {
+      "value": 23,
+      "range": {
+        "min": 18.5,
+        "max": 24.9
+      },
+      "result": "Normal"
+    },
+    "description": "Your BMI is perfect. Continue with your healthy habits.",
+    "Plans": {
+      "breakfast": ["Greek yogurt with granola", "Banana pancakes"],
+      "lunch": ["Grilled turkey wrap", "Lentil soup with whole grain bread"],
+      "snack": ["Sliced apples with almond butter", "Trail mix"]
+    }
+  },
+  {
+    "id": 4,
+    "BP": {
+      "systolic": 119,
+      "diastolic": 76,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 105,
+      "type": "Random"
+    },
+    "BMI": {
+      "value": 21,
+      "range": {
+        "min": 18.5,
+        "max": 24.9
+      },
+      "result": "Normal"
+    },
+    "description": "Your health is stable. Stay active and hydrated.",
+    "Plans": {
+      "breakfast": ["Spinach omelet", "Whole grain cereal with milk"],
+      "lunch": ["Vegetable pasta with chicken", "Mixed green salad"],
+      "snack": ["Rice cakes with hummus", "Fresh orange slices"]
+    }
+  },
+  {
+    "id": 5,
+    "BP": {
+      "systolic": 115,
+      "diastolic": 74,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 98,
+      "type": "Fasting"
+    },
+    "BMI": {
+      "value": 24,
+      "range": {
+        "min": 18.5,
+        "max": 24.9
+      },
+      "result": "Normal"
+    },
+    "description": "Great job on maintaining your health! Keep eating nutritious meals.",
+    "Plans": {
+      "breakfast": ["Chia pudding with berries", "Toast with avocado and egg"],
+      "lunch": ["Grilled chicken quinoa bowl", "Soup and salad combo"],
+      "snack": ["Protein smoothie", "Carrot and cucumber sticks"]
+    }
+  },
+  {
+    "id": 6,
     "BP": {
       "systolic": 130,
       "diastolic": 85,
@@ -37,71 +141,382 @@
       "type": "Post-Meal"
     },
     "BMI": {
-      "value": 25,
+      "value": 26,
+      "range": {
+        "min": 24.9,
+        "max": 29.9
+      },
+      "result": "Overweight"
+    },
+    "description": "Your weight is slightly above normal. Include more fiber in your meals.",
+    "Plans": {
+      "breakfast": ["Scrambled eggs with spinach", "Green smoothie"],
+      "lunch": ["Grilled salmon with steamed broccoli", "Vegetarian chili"],
+      "snack": ["Low-fat cheese sticks", "Fresh strawberries"]
+    }
+  },
+  {
+    "id": 7,
+    "BP": {
+      "systolic": 132,
+      "diastolic": 87,
+      "category": "Elevated"
+    },
+    "SU": {
+      "value": 135,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 28,
+      "range": {
+        "min": 24.9,
+        "max": 29.9
+      },
+      "result": "Overweight"
+    },
+    "description": "You are on the higher side of BMI. Reduce processed foods.",
+    "Plans": {
+      "breakfast": ["Oats with almond milk", "Boiled eggs"],
+      "lunch": ["Grilled chicken with quinoa", "Sautéed vegetables"],
+      "snack": ["Cucumber slices", "Pumpkin seeds"]
+    }
+  },
+  {
+    "id": 8,
+    "BP": {
+      "systolic": 135,
+      "diastolic": 90,
+      "category": "Hypertension Stage 1"
+    },
+    "SU": {
+      "value": 140,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 30,
+      "range": {
+        "min": 30,
+        "max": 34.9
+      },
+      "result": "Obese"
+    },
+    "description": "You are in the obese range. Focus on portion control and regular exercise.",
+    "Plans": {
+      "breakfast": ["Egg white omelet", "Whole grain toast"],
+      "lunch": ["Grilled tofu with steamed veggies", "Soup and salad"],
+      "snack": ["Nuts and seeds", "Roasted chickpeas"]
+    }
+  },
+  {
+    "id": 9,
+    "BP": {
+      "systolic": 145,
+      "diastolic": 95,
+      "category": "Hypertension Stage 2"
+    },
+    "SU": {
+      "value": 160,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 34,
+      "range": {
+        "min": 30,
+        "max": 34.9
+      },
+      "result": "Obese"
+    },
+    "description": "Your health metrics indicate obesity. Reduce sugar and salt intake.",
+    "Plans": {
+      "breakfast": ["Smoothie with kale and avocado", "Hard-boiled eggs"],
+      "lunch": ["Baked salmon and greens", "Lentil curry"],
+      "snack": ["Celery with hummus", "Plain popcorn"]
+    }
+  },
+  {
+    "id": 10,
+    "BP": {
+      "systolic": 110,
+      "diastolic": 70,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 95,
+      "type": "Fasting"
+    },
+    "BMI": {
+      "value": 17,
+      "range": {
+        "min": 0,
+        "max": 18.4
+      },
+      "result": "Underweight"
+    },
+    "description": "Your BMI is below normal. Focus on calorie-dense and nutrient-rich meals to gain healthy weight.",
+    "Plans": {
+      "breakfast": ["Peanut butter and banana toast", "Greek yogurt with honey and granola"],
+      "lunch": ["Grilled chicken with sweet potato", "Whole-grain pasta with creamy sauce"],
+      "snack": ["Trail mix with nuts and dried fruits", "Cheese and whole-grain crackers"]
+    }
+  },
+  {
+    "id": 11,
+    "BP": {
+      "systolic": 108,
+      "diastolic": 72,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 100,
+      "type": "Random"
+    },
+    "BMI": {
+      "value": 16.5,
+      "range": {
+        "min": 0,
+        "max": 18.4
+      },
+      "result": "Underweight"
+    },
+    "description": "Your BMI is low. Include more healthy fats and proteins in your diet.",
+    "Plans": {
+      "breakfast": ["Avocado toast with eggs", "Smoothie with full-fat milk and fruits"],
+      "lunch": ["Steak with roasted vegetables", "Quinoa salad with chickpeas and olive oil"],
+      "snack": ["Full-fat yogurt with nuts", "Almond butter on rice cakes"]
+    }
+  },
+  {
+    "id": 12,
+    "BP": {
+      "systolic": 112,
+      "diastolic": 74,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 98,
+      "type": "Fasting"
+    },
+    "BMI": {
+      "value": 16.8,
+      "range": {
+        "min": 0,
+        "max": 18.4
+      },
+      "result": "Underweight"
+    },
+    "description": "You are underweight. Consider eating calorie-dense foods more frequently.",
+    "Plans": {
+      "breakfast": ["Eggs and sausage with toast", "Porridge with cream and fruit"],
+      "lunch": ["Grilled fish with rice", "Vegetable curry with naan bread"],
+      "snack": ["Milkshake with peanut butter", "Energy bars with oats and honey"]
+    }
+  },
+  {
+    "id": 13,
+    "BP": {
+      "systolic": 114,
+      "diastolic": 76,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 97,
+      "type": "Random"
+    },
+    "BMI": {
+      "value": 17.3,
+      "range": {
+        "min": 0,
+        "max": 18.4
+      },
+      "result": "Underweight"
+    },
+    "description": "Your health metrics show you are underweight. Add more whole grains and healthy oils to your meals.",
+    "Plans": {
+      "breakfast": ["Bagel with cream cheese", "Scrambled eggs with cheese"],
+      "lunch": ["Chicken curry with rice", "Vegetable lasagna"],
+      "snack": ["Nut butter smoothie", "Dark chocolate and almonds"]
+    }
+  },
+  {
+    "id": 14,
+    "BP": {
+      "systolic": 116,
+      "diastolic": 75,
+      "category": "Normal"
+    },
+    "SU": {
+      "value": 96,
+      "type": "Fasting"
+    },
+    "BMI": {
+      "value": 17.8,
+      "range": {
+        "min": 0,
+        "max": 18.4
+      },
+      "result": "Underweight"
+    },
+    "description": "Your BMI is below the healthy range. Incorporate more proteins and healthy carbohydrates.",
+    "Plans": {
+      "breakfast": ["French toast with syrup and fruits", "Oats with milk and nuts"],
+      "lunch": ["Grilled beef with mashed potatoes", "Vegetable stew with bread"],
+      "snack": ["Protein shakes with fruit", "Crackers with cheese"]
+    }
+  },
+  {
+    "id": 15,
+    "BP": {
+      "systolic": 135,
+      "diastolic": 88,
+      "category": "Elevated"
+    },
+    "SU": {
+      "value": 118,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 26,
       "range": {
         "min": 24,
         "max": 29.9
       },
       "result": "Overweight"
     },
-    "description": "Take measures to improve your health.",
+    "description": "Your BMI indicates overweight. Focus on a balanced diet and regular exercise.",
     "Plans": {
-      "breakfast": ["Boiled egg and chapati", "Whole grain toast with peanut butter"],
-      "lunch": ["Baked sweet potato"],
-      "snack": ["A handful of nuts"]
+      "breakfast": ["Oatmeal with berries", "Boiled eggs and avocado slices"],
+      "lunch": ["Grilled fish with quinoa", "Vegetable soup with whole-grain bread"],
+      "snack": ["Fresh fruit salad", "Carrot sticks with hummus"]
     }
   },
   {
-    "id": 3,
+    "id": 16,
     "BP": {
       "systolic": 140,
       "diastolic": 90,
-      "category": "High Blood Pressure (Stage 1)"
+      "category": "Elevated"
     },
     "SU": {
-      "value": 150,
-      "type": "Fasting"
+      "value": 125,
+      "type": "Random"
     },
     "BMI": {
-      "value": 28,
+      "value": 27.5,
       "range": {
-        "min": 25,
+        "min": 24,
         "max": 29.9
       },
       "result": "Overweight"
     },
-    "description": "Monitor your blood pressure and sugar levels closely.",
+    "description": "You are slightly overweight. Prioritize fiber-rich meals and lean proteins.",
     "Plans": {
-      "breakfast": ["Oatmeal with fruits and chia seeds"],
-      "lunch": ["Brown rice with steamed veggies"],
-      "dinner": ["Grilled salmon with sweet potato"],
-      "snack": ["Whole-grain toast with almond butter"]
+      "breakfast": ["Greek yogurt with chia seeds", "Whole-grain toast with almond butter"],
+      "lunch": ["Grilled chicken salad", "Brown rice with stir-fried vegetables"],
+      "snack": ["A handful of walnuts", "Low-fat cheese with cucumber slices"]
     }
   },
   {
-    "id": 4,
+    "id": 17,
     "BP": {
-      "systolic": 110,
-      "diastolic": 75,
-      "category": "Normal"
+      "systolic": 138,
+      "diastolic": 89,
+      "category": "Elevated"
     },
     "SU": {
-      "value": 90,
+      "value": 130,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 28.3,
+      "range": {
+        "min": 24,
+        "max": 29.9
+      },
+      "result": "Overweight"
+    },
+    "description": "Your BMI is in the overweight range. Include more whole foods and reduce processed snacks.",
+    "Plans": {
+      "breakfast": ["Smoothie with spinach, banana, and low-fat milk", "Scrambled eggs with tomato and spinach"],
+      "lunch": ["Grilled turkey sandwich on whole-grain bread", "Zucchini noodles with marinara sauce"],
+      "snack": ["Roasted chickpeas", "Apple slices with peanut butter"]
+    }
+  },
+  {
+    "id": 18,
+    "BP": {
+      "systolic": 145,
+      "diastolic": 95,
+      "category": "High Blood Pressure"
+    },
+    "SU": {
+      "value": 135,
+      "type": "Post-Meal"
+    },
+    "BMI": {
+      "value": 31.5,
+      "range": {
+        "min": 30,
+        "max": 34.9
+      },
+      "result": "Obese"
+    },
+    "description": "Your BMI is in the obese range. Opt for smaller portions and avoid sugary beverages.",
+    "Plans": {
+      "breakfast": ["Veggie omelet with whole-grain toast", "Plain oatmeal with cinnamon and apple slices"],
+      "lunch": ["Grilled salmon with steamed broccoli", "Lentil soup with a side salad"],
+      "snack": ["Celery sticks with peanut butter", "Low-fat yogurt with blueberries"]
+    }
+  },
+  {
+    "id": 19,
+    "BP": {
+      "systolic": 150,
+      "diastolic": 100,
+      "category": "High Blood Pressure"
+    },
+    "SU": {
+      "value": 140,
       "type": "Fasting"
     },
     "BMI": {
-      "value": 23,
+      "value": 33,
       "range": {
-        "min": 18.5,
-        "max": 24.9
+        "min": 30,
+        "max": 34.9
       },
-      "result": "Normal"
+      "result": "Obese"
     },
-    "description": "Maintain your healthy lifestyle.",
+    "description": "Your BMI indicates obesity. Incorporate more plant-based meals and stay active daily.",
     "Plans": {
-      "breakfast": ["Multigrain porridge with flax seeds"],
-      "lunch": ["Quinoa or bulgur wheat with steamed veggies"],
-      "snack": ["One small orange", "A handful of mixed seeds"]
+      "breakfast": ["Low-fat cottage cheese with pineapple", "Avocado toast with a boiled egg"],
+      "lunch": ["Quinoa and black bean salad", "Grilled chicken wrap with vegetables"],
+      "snack": ["Popcorn (air-popped, no butter)", "Sliced cucumbers with tzatziki dip"]
+    }
+  },
+  {
+    "id": 20,
+    "BP": {
+      "systolic": 148,
+      "diastolic": 98,
+      "category": "High Blood Pressure"
+    },
+    "SU": {
+      "value": 138,
+      "type": "Random"
+    },
+    "BMI": {
+      "value": 34,
+      "range": {
+        "min": 30,
+        "max": 34.9
+      },
+      "result": "Obese"
+    },
+    "description": "You are in the obese category. Emphasize high-fiber meals and reduce refined carbs.",
+    "Plans": {
+      "breakfast": ["Chia seed pudding with almond milk", "Whole-grain cereal with skimmed milk"],
+      "lunch": ["Grilled tofu stir-fry with brown rice", "Spinach salad with grilled chicken"],
+      "snack": ["Carrot and celery sticks with hummus", "A small handful of mixed nuts"]
     }
   }
 ]
